@@ -26,9 +26,9 @@ const CrearProducto = ({ productos, agregarProducto, editarProducto }) => {
                 nombre: editarProducto.nombre,
                 precio: editarProducto.precio,
                 imagen: editarProducto.imagen,
-                imagen1: editarProducto.imagenes[0],
-                imagen2: editarProducto.imagenes[1],
-                imagen3: editarProducto.imagenes[2],
+                imagen1: editarProducto.imagen[0],
+                imagen2: editarProducto.imagen[1],
+                imagen3: editarProducto.imagen[2],
                 descripcion: editarProducto.descripcion
             })
         }
