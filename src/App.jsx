@@ -7,8 +7,8 @@ import Producto from './view/Producto'
 
 const inicialProductos = [
   {
-    id: 1, nombre: 'Camiseta Colombia', precio: 20,
-    descripcion: 'PERSONALIZA TU CAMISETA NUEVA Lleva con orgullo tu pasión. Recuerda que al personalizar un artículo, el mismo no entra en nuestra política de cambios y devoluciones. No aplica ningún descuento.',
+    id: 1, nombre: 'Camisa Colombia', precio: 50,
+    descripcion: 'PERSONALIZA TU CAMISA NUEVA Llevala con orgullo es tu pasión. Recuerda que al personalizar un artículo, el mismo no entra en nuestra política de cambios y devoluciones. No aplica ningún descuento.',
     imagen: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dd3211ccf3b8485091d5825e4b2bc913_9366/Camiseta_Local_Seleccion_Colombia_24_Version_Jugador_Amarillo_IP8280_21_model.jpg',
     imagenes: [
       'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/563469a049544d4bb5d17a89b50ec25a_9366/Camiseta_Local_Seleccion_Colombia_24_Version_Jugador_Amarillo_IP8280_23_hover_model.jpg',
@@ -17,8 +17,8 @@ const inicialProductos = [
     ]
   },
   {
-    id: 2, nombre: 'Camiseta Argentina', precio: 20,
-    descripcion: 'PERSONALIZA TU CAMISETA NUEVA Lleva con orgullo tu pasión. Recuerda que al personalizar un artículo, el mismo no entra en nuestra política de cambios y devoluciones.',
+    id: 2, nombre: 'Camisa Argentina', precio: 60,
+    descripcion: 'PERSONALIZA TU CAMISA NUEVA Llevala con orgullo es tu pasión. Recuerda que al personalizar un artículo, el mismo no entra en nuestra política de cambios y devoluciones.',
     imagen: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/05596cc5f7724da8946f5362652319d0_9366/Camiseta_Local_Seleccion_Argentina_24_Blanco_IP8409_21_model.jpg',
     imagenes: [
       'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/999df66fd6074e868808403d691edfed_9366/Camiseta_Local_Seleccion_Argentina_24_Blanco_IP8409_23_hover_model.jpg',
@@ -27,8 +27,8 @@ const inicialProductos = [
     ],
   },
   {
-    id: 3, nombre: 'Camiseta Deportiva', precio: 20,
-    descripcion: 'Equipación Deportiva 2024',
+    id: 3, nombre: 'Camisa Deportiva', precio: 35,
+    descripcion: 'Equipo Deportivo 2024',
     imagen: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5ee24b019f8640e886ffd3e19a6f2fc8_9366/Camiseta_de_Entrenamiento_Power_Rosa_IX9092_HM1.jpg',
     imagenes: [
       'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e9357e77e6184e7bb88d5a54bfb33cec_9366/Camiseta_de_Entrenamiento_Designed_for_Training_Rosa_IX9149_23_hover_model.jpg',
