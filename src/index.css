@@ -2,8 +2,8 @@
 
 /* Estilos generales */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
+  font-family: Calibri, sans-serif;
+  line-height: 1.4;
 }
 .principal{
   display: flex;
@@ -17,16 +17,16 @@ body {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .buscador-input {
   width: 100%;
-  border-radius: 16px;
-  height: 30px;
-  margin: 20px 0px;
+  border-radius: 14px;
+  height: 25px;
+  margin: 18px 0px;
 }
 
 /* Grid de productos */
@@ -44,57 +44,57 @@ h1 {
 
 /* Tarjeta de producto */
 .producto-card {
-  border: 1px solid #e2e8f0;
-  border-radius: 0.25rem;
+  border: 1px solid #89bd7f;
+  border-radius: 0.24rem;
   padding: 1rem;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(173, 98, 98, 0.06);
 }
 
 .producto-imagen {
   width: 100%;
-  height: 12rem;
+  height: 10rem;
   object-fit: cover;
-  border-radius: 0.25rem;
-  margin-bottom: 0.5rem;
+  border-radius: 0.24rem;
+  margin-bottom: 0.4rem;
 }
 
 .producto-nombre {
-  font-size: 1.125rem;
-  font-weight: 600;
+  font-size: 1.124rem;
+  font-weight: 580;
 }
 
 .producto-precio {
-  color: red;
+  color: orange;
 }
 
 .boton-agregar {
   width: 100%;
-  margin-top: 0.5rem;
-  background-color: #4299e1;
+  margin-top: 0.4rem;
+  background-color: #338ad1;
   color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
+  padding: 0.4rem 1rem;
+  border-radius: 0.24rem;
   border: none;
   cursor: pointer;
 }
 
 .boton-agregar:hover {
-  background-color: #3182ce;
+  background-color: #2ca140;
 }
 
 .boton-eliminar {
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
   border-color: white;
-  color: #e43721;
-  padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
+  color: #cc4d3d;
+  padding: 0.4rem 1rem;
+  border-radius: 0.24rem;
   border: none;
   cursor: pointer;
 }
 
 .boton-eliminar:hover {
-  background-color: #e43721;
+  background-color: #f34a34;
   color: white;
 }
 
@@ -104,9 +104,9 @@ h1 {
 }
 
 .carrito h2 {
-  font-size: 1.25rem;
+  font-size: 1.24rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .carrito-resumen {
@@ -115,30 +115,30 @@ h1 {
 }
 
 .carrito-icono {
-  margin-right: 0.5rem;
+  margin-right: 0.4rem;
 }
 
 .carrito-lista {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
 }
 
 .carrito-item {
-  color: #4a5568;
+  color: #718ebe;
   display: flex;
   align-items: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .carrito-item-imagen {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
   object-fit: cover;
-  border-radius: 0.25rem;
-  margin-right: 0.5rem;
+  border-radius: 0.24rem;
+  margin-right: 0.4rem;
 }
 
 .carrito-total {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
   font-weight: bold;
 }
 
@@ -159,10 +159,10 @@ h1 {
 
 .detalle-imagen {
   width: 100%;
-  height: 17rem;
+  height: 16rem;
   object-fit: cover;
-  border-radius: 0.25rem;
-  margin-bottom: 0.5rem;
+  border-radius: 0.24rem;
+  margin-bottom: 0.4rem;
   object-position: top;
 }
 
@@ -175,13 +175,13 @@ h1 {
 
 /* Estilos para el contenedor principal */
 .crear-producto {
-  max-width: 800px;
-  min-width: 500px;
+  max-width: 850px;
+  min-width: 450px;
   margin: 0 auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  background-color: #f0e7e7;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(27, 27, 27, 0.1);
 }
 
 .crear-producto-info {
@@ -191,8 +191,8 @@ h1 {
 
 .crear-producto h2 {
   text-align: center;
-  color: #333;
-  margin-bottom: 20px;
+  color: #4b4a4a;
+  margin-bottom: 16px;
 }
 
 /* Estilos para el formulario */
@@ -202,25 +202,25 @@ h1 {
 }
 
 .crear-producto form>div {
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
 
 /* Estilos para las etiquetas */
 .crear-producto label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   font-weight: bold;
-  color: #555;
+  color: #706f6f;
 }
 
 /* Estilos para los inputs y textarea */
 .crear-producto input,
 .crear-producto textarea {
   width: 100%;
-  padding: 8px;
-  border: 1px solid #ddd;
+  padding: 6px;
+  border: 1px solid #d4d0d0;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .crear-producto textarea {
@@ -231,17 +231,17 @@ h1 {
 /* Estilos para el botón de envío */
 .crear-producto button {
   padding: 10px 15px;
-  background-color: #4CAF50;
+  background-color: #2baf30;
   color: white;
   border: none;
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.4s ease;
 }
 
 .crear-producto button:hover {
-  background-color: #45a049;
+  background-color: #35913a;
 }
 
 /* Estilos para los campos cuando están en foco */
@@ -249,19 +249,19 @@ h1 {
 .crear-producto textarea:focus {
   outline: none;
   border-color: #4CAF50;
-  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  box-shadow: 0 0 5px rgba(71, 161, 74, 0.5);
 }
 
 /* Estilos para campos inválidos */
 .crear-producto input:invalid,
 .crear-producto textarea:invalid {
-  border-color: #ff6b6b;
+  border-color: #f86060;
 }
 
 /* Estilos responsivos */
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .crear-producto {
-    padding: 15px;
+    padding: 14px;
   }
 
   .crear-producto input,
@@ -273,12 +273,12 @@ h1 {
 
 /* Etiqueta Item List */
 .item-product {
-  border: 1px solid #e2e8f0;
-  border-radius: 16px;
+  border: 1px solid #cdd5df;
+  border-radius: 14px;
   padding: 1rem;
   display: flex;
   align-items: center;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px 0 rgba(15, 15, 15, 0.1), 0 1px 2px 0 rgba(15, 15, 15, 0.1);
 }
 
 /* Navbar */
@@ -292,7 +292,7 @@ h1 {
   width: 100%;
   flex-direction: column;
   justify-content: center;
-  height: 50px;
+  height: 40px;
   margin: 0;
 }
 .main-nav ul{
@@ -305,15 +305,15 @@ h1 {
 .main-nav a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   padding: 5px 10px;
-  border-radius: 5px;
-  transition: background-color 0.3s;
+  border-radius: 4px;
+  transition: background-color 0.4s;
 }
 
 .main-nav a:hover,
 .main-nav li.active a {
-  background-color: #555;
+  background-color: #646262;
 }
 
 @media (max-width: 600px) {
@@ -323,6 +323,6 @@ h1 {
   }
 
   .main-nav li {
-    margin: 10px 0;
+    margin: 12px 0;
   }
 }
